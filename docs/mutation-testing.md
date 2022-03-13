@@ -1,0 +1,2 @@
+- https://github.com/hcoles/pitest
+- https://www.baeldung.com/java-mutation-testing-with-pitest
