@@ -1,7 +1,5 @@
 package fr.ktung.dumbtesting.arrays.numberevendigits;
 
-import fr.ktung.dumbtesting.arrays.numberevendigits.BasicNumbersEvenDigits;
-import fr.ktung.dumbtesting.arrays.numberevendigits.NumbersEvenDigits;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
