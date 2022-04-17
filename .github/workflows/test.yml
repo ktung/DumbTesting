@@ -31,3 +31,4 @@ jobs:
         with:
           name: mutation-tests-report
           path: target/pit-reports/
+          retention-days: 1
