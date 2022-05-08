@@ -1,20 +1,16 @@
 package fr.ktung.dumbtesting.strings.isunique;
 
-import org.junit.jupiter.api.BeforeAll;
+import fr.ktung.dumbtesting.ParallelizableTest;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
+@ParallelizableTest
 public class IsUniqueSetTest {
 
-  private static IsUnique isUnique;
-
-  @BeforeAll
-  private static void setUp() {
-    isUnique = new IsUniqueSet();
-  }
+  private static final IsUnique isUnique = new IsUniqueSet();
 
   @ParameterizedTest
   @ValueSource(strings = {"a", "abc"})

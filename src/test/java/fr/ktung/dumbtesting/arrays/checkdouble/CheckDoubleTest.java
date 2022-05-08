@@ -1,10 +1,12 @@
 package fr.ktung.dumbtesting.arrays.checkdouble;
 
+import fr.ktung.dumbtesting.ParallelizableTest;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
+@ParallelizableTest
 public class CheckDoubleTest {
 
   private final CheckDouble checkDouble = new BasicCheckDouble();

@@ -1,5 +1,6 @@
 package fr.ktung.dumbtesting.arrays.removeelement;
 
+import fr.ktung.dumbtesting.ParallelizableTest;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 
@@ -10,6 +11,7 @@ import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
+@ParallelizableTest
 public class RemoveElementTest {
 
   @ParameterizedTest
