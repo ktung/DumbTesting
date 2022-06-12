@@ -28,7 +28,7 @@ public class DFSNumberOfIslands implements NumberOfIslands {
     return nbIslands;
   }
 
-  // Mark all adjacent land as water using deep-first search
+  // Mark all adjacent land as water using depth-first search
   private void dfs(char[][] grid, int x, int y) {
     if (x < 0 || y < 0 || x >= grid.length || y >= grid[0].length || grid[x][y] != '1') {
       return;
